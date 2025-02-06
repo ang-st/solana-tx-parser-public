@@ -1,0 +1,1 @@
+{"version":3,"file":"token22.d.ts","sourceRoot":"","sources":["../../../src/decoders/token22.ts"],"names":[],"mappings":"AAAA,OAAO,EAAa,sBAAsB,EAAE,MAAM,iBAAiB,CAAC;AAoEpE,OAAO,EAAE,aAAa,EAAE,MAAM,aAAa,CAAC;AAC5C,OAAO,EAAwB,iBAAiB,EAAE,MAAM,eAAe,CAAC;AAExE,iBAAS,0BAA0B,CAAC,WAAW,EAAE,sBAAsB,GAAG,iBAAiB,CAAC,aAAa,CAAC,CAiyBzG;AAED,OAAO,EAAE,0BAA0B,EAAE,CAAC"}
