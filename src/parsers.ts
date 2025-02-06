@@ -193,8 +193,11 @@ export class SolanaParser {
 			return this.buildUnknownParsedInstruction(instruction.programId, instruction.keys, instruction.data);
 		} else {
 			const parser = this.instructionParsers.get(instruction.programId.toBase58()) as ParserFunction<I, IxName>;
-
-			return parser(instruction);
+			try{
+                return parser(instruction);
+      } catch (e) {
+                return this.buildUnknownParsedInstruction(instruction.programId, instruction.keys, instruction.data);
+      }
 		}
 	}
 
